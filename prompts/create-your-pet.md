@@ -10,6 +10,8 @@ Copy one block to an AI with image generation and attach a few photos you have p
 
 开始前先和我确认：宠物名字；必须保留的脸型、毛色、花纹和其他特征；是否保留或添加服装；两版的具体表现偏好。目标已确定为写实＋16-bit、128×128逻辑画布像素版，不改成其他位深或画布。照片不足时只索取必要角度，不使用不明来源的照片，不把原照片或个人信息公开。
 
+照片有遮挡或细节缺失时，可以合理补全身体与服装，保持关键身份特征；不确定的关键特征先向我询问，并明确区分AI补全与照片中实际可见的细节，不要把补全内容说成原照片已有细节。
+
 先生成一张清晰的主形象预览，保留宠物身份、比例、配色和服装细节，在实际显示尺寸下让我确认。确认前不要批量生成全部动作。分别确认写实版和像素版主形象，并始终保留为独立版本。
 
 主形象确认后，核实目标应用对Pets v2的支持；目标成品为透明1536×2288 PNG、8列11行、192×208单元、9种状态和16个注视方向。目标应用不支持时明确告知，不静默降级。然后制作待机、左右移动、招手、跳跃、出错、等待、工作和查看等动作，以及应用支持的注视方向。全程保持身份、颜色、大小、画面位置和身体结构一致；跳跃应有真实离地，左右移动与注视方向必须正确。像素版保持清晰像素边缘和约定的逻辑画布，不把逻辑画布尺寸误当成最终安装图尺寸。
@@ -29,6 +31,8 @@ Copy one block to an AI with image generation and attach a few photos you have p
 Create two separate ChatGPT / Codex virtual pets from a few pet photos that I provide or explicitly identify and have permission to use: one realistic version and one 16-bit pixel version on a 128×128 logical canvas. Reference project: https://github.com/Quashy/pizza-cat-pets . Use it as a reference for the two styles and final format; the character must be my pet. Do not install Pizza and present it as my own pet.
 
 Before starting, confirm the pet's name; facial shape, fur color, markings, and other traits to preserve; clothing to keep or add; the detailed visual preferences for each version. The required output is already realistic plus 16-bit pixel art on a 128×128 logical canvas; do not substitute another bit depth or canvas. Ask only for necessary additional angles. Do not use photos of unknown origin or publish my source photos or personal information.
+
+If the photos contain occlusions or missing details, reasonably complete the body and clothing while preserving key identity traits. Ask me about uncertain defining traits first, and distinguish AI-completed details from what is actually visible in the photos; do not present completed details as if they were present in the original photos.
 
 Generate one clear main-look preview first, preserving identity, proportions, colors, and clothing. Show it at the intended display size for my approval before generating all animations. Approve the realistic and pixel main looks separately and keep them as separate versions throughout.
 
