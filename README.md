@@ -1,52 +1,49 @@
+<p align="center"><strong>中文</strong> | <a href="README.en.md">English</a></p>
+
 <p align="center">
-  <img src="previews/pizza-pixel.png" alt="披萨 Pizza — a golden cat in a cherry dress, in pixel art" width="256">
+  <img src="previews/pizza-pixel.png" alt="穿樱桃裙的像素小猫披萨" width="256">
 </p>
 
-<h1 align="center">披萨 · Pizza</h1>
+<h1 align="center">披萨</h1>
 
-<p align="center">让你家的毛孩子来屏幕里监工。<br>Your pet. Your tiny on-screen supervisor.</p>
+<p align="center">让你家的毛孩子来屏幕里监工。</p>
 
 想把你家的毛孩子搬进屏幕，当你的专属小监工吗？用几张照片，把它变成写实或像素模样，陪你写代码、赶作业、摸会儿鱼。没有宠物？先领一只披萨回去。
 
-Wish your pet could keep you company at your desk? Turn a few photos into a realistic or pixel companion for coding sessions, homework, and well-earned breaks. No pet of your own? Pizza is ready to move in.
-
 <p align="center">
-  <a href="#create">用自己的宠物制作 · Make your own</a> ·
-  <a href="#install">直接使用披萨 · Get Pizza</a> ·
-  <a href="#preview">查看两版 · Preview</a>
+  <a href="#create">用自己的宠物制作</a> ·
+  <a href="#install">直接使用披萨</a> ·
+  <a href="#preview">查看两版</a>
 </p>
 
 <p align="center">
-  <img src="previews/pizza-photo-to-pet-comparison.png" alt="AI辅助参考照片、写实披萨与16-bit像素披萨对照 / AI-assisted reference, realistic Pizza and 16-bit Pixel Pizza comparison" width="1000">
+  <img src="previews/pizza-photo-to-pet-comparison.png" alt="AI辅助参考照片、写实披萨与16位像素披萨对照" width="1000">
 </p>
 
-**参考照片（AI 去背景及补全）/ Reference (AI-assisted cutout and completion)** · [查看参考图 / View reference](previews/pizza-reference-ai-assisted.png)
+**参考照片（AI 去背景及补全）** · [查看参考图](previews/pizza-reference-ai-assisted.png)
 
 参考照片已通过AI移除背景并补全遮挡细节。下方展示两版形象与动作预览。
 
-The reference photo uses AI-assisted background removal and completion of obscured details. Explore both character styles and their animation previews below.
-
 <a id="preview"></a>
-## 两种模样，同一个披萨 / Two looks, one Pizza
 
-| 原版 / Original | 像素版 / Pixel |
+## 两种模样，同一个披萨
+
+| 原版 | 像素版 |
 | :---: | :---: |
-| <img src="previews/pizza-original.png" alt="写实版披萨 / Realistic Pizza" width="192"> | <img src="previews/pizza-pixel.png" alt="16-bit像素版披萨 / 16-bit Pixel Pizza" width="192"> |
-| 写实毛绒质感，樱桃裙 / Realistic fur, cherry dress | 16-bit 风格，128×128 逻辑画布 / 16-bit style, 128×128 logical canvas |
-| <img src="previews/pizza-original.gif" alt="原版披萨动作预览 / Original Pizza animation" width="192"> | <img src="previews/pizza-pixel.gif" alt="像素版披萨动作预览 / Pixel Pizza animation" width="192"> |
-| [宠物 PNG / Sprite sheet](pets/original/spritesheet.png) | [宠物 PNG / Sprite sheet](pets/pixel/spritesheet.png) · [原生主图 / Native portrait](previews/pizza-pixel-native.png) |
+| <img src="previews/pizza-original.png" alt="写实版披萨" width="192"> | <img src="previews/pizza-pixel.png" alt="16位像素版披萨" width="192"> |
+| 写实毛绒质感，樱桃裙 | 16位风格，128×128逻辑画布 |
+| <img src="previews/pizza-original.gif" alt="原版披萨动作预览" width="192"> | <img src="previews/pizza-pixel.gif" alt="像素版披萨动作预览" width="192"> |
+| [宠物PNG](pets/original/spritesheet.png) | [宠物PNG](pets/pixel/spritesheet.png) · [原生主图](previews/pizza-pixel-native.png) |
 
 <a id="create"></a>
-## 有自己的宠物？/ Have a pet of your own?
 
-**你的照片 → 写实与像素形象 → 会动的桌面陪伴**<br>
-**Your photos → realistic and pixel characters → an animated desktop companion**
+## 有自己的宠物？
 
-复制 [创建提示词](prompts/create-your-pet.md)，附上少量你有权使用的照片，让 AI 制作 **写实版＋16-bit、128×128 逻辑画布像素版**。先确认主形象，再看动作预览，最后按应用实际能力安装和切换。
+**你的照片 → 写实与像素形象 → 会动的桌面陪伴**
 
-Copy the [creation prompt](prompts/create-your-pet.md) and attach a few photos you have permission to use. Your AI will create **a realistic version and a 16-bit pixel version on a 128×128 logical canvas**. Approve the main looks, review the animation, then install and switch using your app's available capabilities.
+复制下面的完整提示词，或打开[创建提示词文件](prompts/create-your-pet.md#中文)，附上少量你有权使用的照片，让AI制作**写实版＋16位、128×128逻辑画布像素版**。先确认主形象，再看动作预览，最后按应用实际能力安装和切换。
 
-### 中文提示词
+### 复制给你的AI
 
 ```text
 请基于我提供或明确指定且有权使用的少量宠物照片，帮我制作 ChatGPT / Codex 虚拟宠物，必须分别提供写实版和16-bit像素版，像素版使用128×128逻辑画布。参考项目：https://github.com/Quashy/pizza-cat-pets 。参考它的两种风格与成品规格，角色必须来自我的宠物，不要直接安装披萨来冒充我的宠物。
@@ -68,40 +65,15 @@ Copy the [creation prompt](prompts/create-your-pet.md) and attach a few photos y
 保存为独立宠物；写实版与像素版分别命名并记录实际稳定ID或经核实的本地ID，不覆盖、删除或替换已有宠物。让我选择当前启用的版本，并按我指定的版本切换，完成后核实结果，告诉我以后如何切换。
 ```
 
-### English prompt
-
-```text
-Create two separate ChatGPT / Codex virtual pets from a few pet photos that I provide or explicitly identify and have permission to use: one realistic version and one 16-bit pixel version on a 128×128 logical canvas. Reference project: https://github.com/Quashy/pizza-cat-pets . Use it as a reference for the two styles and final format; the character must be my pet. Do not install Pizza and present it as my own pet.
-
-Before starting, confirm the pet's name; facial shape, fur color, markings, and other traits to preserve; clothing to keep or add; the detailed visual preferences for each version. The required output is already realistic plus 16-bit pixel art on a 128×128 logical canvas; do not substitute another bit depth or canvas. Ask only for necessary additional angles. Do not use photos of unknown origin or publish my source photos or personal information.
-
-If the photos contain occlusions or missing details, reasonably complete the body and clothing while preserving key identity traits. Ask me about uncertain defining traits first, and distinguish AI-completed details from what is actually visible in the photos; do not present completed details as if they were present in the original photos.
-
-Generate one clear main-look preview first, preserving identity, proportions, colors, and clothing. Show it at the intended display size for my approval before generating all animations. Approve the realistic and pixel main looks separately and keep them as separate versions throughout.
-
-After approval, verify the target app's Pets v2 support. Deliver transparent 1536×2288 PNGs with 8 columns, 11 rows, 192×208 cells, 9 states, and 16 look directions. If the target app cannot use them, explain that limitation rather than silently downgrading. Create the idle, left/right movement, wave, jump, error, waiting, working, and review animations, plus supported look directions. Keep identity, colors, scale, registration, and anatomy consistent. A jump should visibly leave the ground; movement and gaze must face the correct directions. For pixel art, keep crisp edges and the agreed logical canvas; do not confuse that canvas with the final install sheet's dimensions.
-
-Review each animation for pink background spill, exposure or color flicker, sudden tail or head jumps, clipping, missing frames, reversed directions, and broken motion. Keep transparency clean. Repair the affected animation while preserving approved work.
-
-Show motion previews of the main actions and look directions for my approval before installation. Deliver the final install sheet, a viewable portrait, and animation previews. Do not publish my photos or personal details by default.
-
-Before installing, detect my actual app, version, tools, and local access. Use a verified custom-pet import method. Do not claim ordinary ChatGPT chats can always install pets or modify a local computer, and do not invent pet directories or configuration. If image generation, validation, file access, or installation is unavailable, explain the exact stopping point, completed work, and what I need to provide or do manually. Never pretend it succeeded.
-
-Save an independent pet. Name and record the realistic and pixel versions separately with their actual stable IDs or verified local IDs. Do not overwrite, delete, or replace existing pets. Let me choose the active version, switch only to the one I request, verify the result, and explain how to switch later.
-```
-
 <a id="install"></a>
-## 想直接使用披萨？/ Want Pizza instead?
 
-复制 [安装提示词](prompts/install.md) 给你的 AI。它会检查应用能力，分别安装 **Pizza Original** 和 **Pizza Pixel**，并默认启用写实原版，保留已有宠物。
+## 想直接使用披萨？
 
-Copy the [installation prompt](prompts/install.md) to your AI. It will check your app's capabilities, install **Pizza Original** and **Pizza Pixel** separately, and activate the realistic Original by default while preserving existing pets.
+复制下面的完整提示词，或打开[安装提示词文件](prompts/install.md#中文)，发给你的AI。它会检查应用能力，分别安装 **Pizza Original** 和 **Pizza Pixel**，并默认启用写实原版，保留已有宠物。
 
-之后说 **“切换到像素版披萨”** 或 **“切换到原版披萨”**。两份提示词都内含仓库链接，可独立复制分享。
+之后说**“切换到像素版披萨”**或**“切换到原版披萨”**。两份提示词都内含仓库链接，可独立复制分享。
 
-Then say **“Switch to Pizza Pixel”** or **“Switch to Pizza Original.”** Both prompts include the repository URL and work as standalone requests.
-
-### 中文提示词
+### 复制给你的AI
 
 ```text
 请把 https://github.com/Quashy/pizza-cat-pets 中的两版 Pizza / 披萨宠物安装到我实际使用的 ChatGPT / Codex 环境，保留两版，并默认激活写实原版 Pizza Original，之后可分别切换。
@@ -124,33 +96,10 @@ Then say **“Switch to Pizza Pixel”** or **“Switch to Pizza Original.”** 
 完成后简要汇报两版各自的安装结果、当前激活版本、稳定 ID 和以后切换的方法。
 ```
 
-### English prompt
+## 兼容性
 
-```text
-Install both Pizza versions from https://github.com/Quashy/pizza-cat-pets into my actual ChatGPT / Codex environment. Keep both and activate the realistic Pizza Original by default so I can switch later.
+- 两版均为透明Pets v2 PNG：1536×2288，8列×11行，192×208单元，9种状态与16个注视方向。128×128指像素创作画布，不是安装文件尺寸。
+- 需要支持v2的桌面宠物安装入口或Pets工具。普通ChatGPT对话不保证能安装或访问电脑；本地目录安装须核实实际版本与格式。
+- 网页普通上传说明及核实到的Codex CLI读取器目前仍限定v1（1536×1872），不能直接使用这里的v2文件。CLI显示还取决于终端图形支持；IDE扩展没有宠物选择器。
 
-Source and files:
-- Repository: https://github.com/Quashy/pizza-cat-pets . Fetch the files from this repository; do not guess other URLs or use another account's private assets.
-- Original: https://raw.githubusercontent.com/Quashy/pizza-cat-pets/main/pets/original/spritesheet.png ; display name Pizza Original.
-- Pixel: https://raw.githubusercontent.com/Quashy/pizza-cat-pets/main/pets/pixel/spritesheet.png ; display name Pizza Pixel.
-- Both are transparent PNGs, Pets v2, 1536×2288, 8 columns × 11 rows, with 192×208 cells. The first nine rows contain 6/8/8/4/5/8/6/6/6 frames; the last two contain 16 look directions. Portrait previews and GIFs are not install files.
-
-1. Detect the actual app, version, OS, available tools, and current official installation guidance first. Distinguish desktop, web, Codex CLI, IDE, and dot. Use only a verified v2-capable route. Do not assume a normal chat can access my computer, or invent directories, configuration fields, tool arguments, or success.
-2. Fetch the two PNGs from the confirmed repository. Check their type, dimensions, transparency, and integrity without altering the originals or replacing existing pets. If you cannot download or access files, tell me exactly which files to download or attach.
-3. Choose one route based on actual capabilities:
-   - If Pets creation tools are available, list existing pets first to avoid duplicates. For each PNG, call validate_pet_spritesheet; continue only if valid=true. Call prepare_pet_upload, then create_pet using the actual returned upload_session_id. Complete and verify the upload as required by the current tools. Record the stable pet.id returned by create_pet. A temporary URL, upload session, or repository filename is not a pet ID. Verify each creation and its list entry. If only one succeeds, preserve it, check the uncertain result before retrying, and avoid duplicates.
-   - If the desktop app supports the official pet install flow, build a separate codex://pets/install link for each version. Use its display name as name, the PNG's public raw HTTPS URL at the repository's actual branch or commit as imageUrl, and spriteVersionNumber=2. URL-encode parameters correctly. Verify support first, then have me open the links and complete installation in the app. Reference: https://learn.chatgpt.com/docs/reference/commands#pets . Opening the flow alone does not prove installation; verify the result.
-   - If the app explicitly supports local folder installation, read its current official documentation or installed official pet installation skill to verify the real directory and configuration format. Install with two separate, non-conflicting local IDs/directories. If needed, convert only a copy losslessly and verify it. Do not reuse another version's schema, change global settings without authorization, overwrite a directory, or confuse a copied file with an active pet.
-4. After installation, record each version's display name, actual stable ID (or verified local ID), source file, and install location. Save that mapping appropriately in my own environment for later switching; never write my information into the public repository. After installing both, activate the realistic Pizza Original by default, unless I explicitly choose a different version in this request.
-5. Switch only to the version I requested, resolving its actual ID on my account/device first; clarify duplicate names. In a supported ChatGPT Pets environment, use select_pet and verify active_pet_id. For a dot's appearance, use the actually available cloud_threads.select_orbit_pet; a global selection does not prove the dot changed. In the local desktop app, refresh and select in Settings > Pets. Only use /pets in a supported graphics terminal after verifying that the actual Codex CLI loader accepts these v2 files. The checked public CLI source still accepts only v1 and cannot directly use these v2 sheets. Keep the other version installed. Never reuse the publisher's account-specific pet IDs.
-6. If no verified installation or switching capability is available, stop that step and explain the limitation, completed work, and exact action I must take. The documented ordinary web upload currently specifies v1 (1536×1872); do not claim these v2 files are compatible, trim their look directions, or silently downgrade them. The IDE extension has no pet picker. Codex CLI display also depends on terminal graphics support, so visibility is not guaranteed in every terminal.
-Finish with a short report of each version's installation result, the active version, stable IDs, and how to switch later.
-```
-
-## 兼容性 / Compatibility
-
-- 两版均为透明 Pets v2 PNG：1536×2288，8列×11行，192×208 单元，9种状态与16个注视方向。128×128 指像素创作画布，不是安装文件尺寸。<br>Both are transparent Pets v2 PNGs: 1536×2288, 8 columns × 11 rows, 192×208 cells, 9 states and 16 look directions. 128×128 describes the pixel artwork, not the install file.
-- 需要支持 v2 的桌面宠物安装入口或 Pets 工具。普通 ChatGPT 对话不保证能安装或访问电脑；本地目录安装须核实实际版本与格式。<br>Requires a v2-capable desktop pet install flow or Pets tools. An ordinary ChatGPT chat may not install pets or access your computer. Local folder installation requires verification of the actual version and format.
-- 网页普通上传说明及核实到的 Codex CLI 读取器目前仍限定 v1（1536×1872），不能直接使用这里的 v2 文件。CLI 显示还取决于终端图形支持；IDE 扩展没有宠物选择器。<br>The documented ordinary web upload and the checked Codex CLI loader currently require v1 (1536×1872) and cannot directly use these v2 files. CLI display also depends on terminal graphics support; the IDE extension has no pet picker.
-
-[官方 Pets 说明 / Official Pets guide](https://learn.chatgpt.com/docs/pets) · [桌面安装入口 / Desktop install flow](https://learn.chatgpt.com/docs/reference/commands#pets) · [已核实的 CLI 读取器 / Checked CLI loader](https://github.com/openai/codex/blob/398500106707f0a3217c7cf83edc2bf226cc342f/codex-rs/tui/src/pets/model.rs#L314)
+[官方Pets说明](https://learn.chatgpt.com/docs/pets) · [桌面安装入口](https://learn.chatgpt.com/docs/reference/commands#pets) · [已核实的CLI读取器](https://github.com/openai/codex/blob/398500106707f0a3217c7cf83edc2bf226cc342f/codex-rs/tui/src/pets/model.rs#L314)
