@@ -38,30 +38,30 @@ Pizza started with photos. We picked out the details that make her recognizable:
   <img src="previews/pizza-photo-to-pet-comparison.png" alt="AI-assisted reference, realistic Pizza and 16-bit Pixel Pizza comparison" width="1000">
 </p>
 
-**Reference (AI-assisted cutout and completion)** · [View reference](previews/pizza-reference-ai-assisted.png)
-
-AI was used to remove the background and fill in obscured details in the reference photo. The comparison shows the reference, realistic Pizza, and pixel Pizza from left to right.
-
 <a id="create"></a>
 
 ## Make one from your own pet
 
-Choose a few photos that clearly show your pet's face, fur color, and markings. Send them to your AI along with the [creation prompt](prompts/create-your-pet.md#english), and tell it which details to keep. For example:
+Choose a few photos that clearly show your pet's face, fur color, and markings. Send them to your AI with this prompt:
 
-> Keep the face and ears recognizable, including the markings on the tail. Show me the realistic and pixel versions first, then make the animations.
+```text
+Read the guide below and follow its English instructions to create realistic and pixel desktop pets from my attached photos. Preserve my pet's face, fur color, and markings. Let me approve both looks before animating them, then check whether my app supports installation:
+https://raw.githubusercontent.com/Quashy/pizza-cat-pets/main/prompts/create-your-pet.md
+```
 
-Approve both main looks, then review the animation previews. Once you're happy with them, you'll get a separate install sheet for each version, ready to use in an app that supports Pets v2.
-
-**[Open the creation prompt](prompts/create-your-pet.md#english)**
-
-The full workflow lives in a separate file, ready to open, copy, and share.
+[Read the full creation guide](prompts/create-your-pet.md#english)
 
 <a id="install"></a>
 
 ## Bring Pizza home
 
-Want to try it first? Send the [installation prompt](prompts/install.md#english) to your AI. It will check whether your app supports installation, then add both the realistic and pixel versions. Realistic Pizza takes the first shift, and your existing pets stay right where they are.
+Want to try it first? Copy this prompt to your AI:
 
-**[Open the installation prompt](prompts/install.md#english)**
+```text
+Read the guide below and follow its English instructions. Check whether my app supports installation, then install both realistic and pixel Pizza. Activate the realistic version by default and keep my existing pets:
+https://raw.githubusercontent.com/Quashy/pizza-cat-pets/main/prompts/install.md
+```
+
+[Read the full installation guide](prompts/install.md#english)
 
 Ready for a different look? Just say, “Switch to Pizza Pixel.”

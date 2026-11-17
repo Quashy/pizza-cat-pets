@@ -38,30 +38,30 @@
   <img src="previews/pizza-photo-to-pet-comparison.png" alt="AI辅助参考照片、写实披萨与16位像素披萨对照" width="1000">
 </p>
 
-**参考照片（AI 去背景及补全）** · [查看参考图](previews/pizza-reference-ai-assisted.png)
-
-参考照片已通过 AI 移除背景并补全遮挡细节。上图依次展示参考图、写实版和像素版。
-
 <a id="create"></a>
 
 ## 用你家的宠物做一只
 
-准备几张能看清脸型、毛色和花纹的照片。把[制作提示词](prompts/create-your-pet.md#中文)和照片一起发给 AI，告诉它哪些特征一定要保留。比如：
+准备几张能看清脸型、毛色和花纹的照片，和下面这段话一起发给 AI：
 
-> 脸和耳朵要像它，尾巴上的花纹也留着。先给我看写实和像素两版长什么样，再做动作。
+```text
+请阅读下面的制作指南，按其中的中文说明，用我附上的宠物照片制作写实版和像素版桌宠。保留它的脸型、毛色和花纹，先让我确认两版形象，再制作动作并检查安装环境：
+https://raw.githubusercontent.com/Quashy/pizza-cat-pets/main/prompts/create-your-pet.md
+```
 
-先确认两版主形象，再看动作预览。满意之后，拿到写实版和像素版各自的安装图，在支持 Pets v2 的环境里安装。
-
-**[打开制作提示词](prompts/create-your-pet.md#中文)**
-
-完整制作流程放在独立文件里，可以直接打开、复制和分享。
+[查看完整制作指南](prompts/create-your-pet.md#中文)
 
 <a id="install"></a>
 
 ## 直接领一只披萨
 
-想先体验一下？把[安装提示词](prompts/install.md#中文)交给 AI，让它先检查你当前的应用是否支持安装，再把写实版和像素版都装上。默认先让写实披萨来监工，原有宠物也保留。
+想先体验一下？复制下面这段话给 AI：
 
-**[打开安装提示词](prompts/install.md#中文)**
+```text
+请阅读下面的安装指南，按其中的中文说明，先检查我的应用是否支持安装，再安装写实版和像素版披萨。默认启用写实版，保留我已有的宠物：
+https://raw.githubusercontent.com/Quashy/pizza-cat-pets/main/prompts/install.md
+```
+
+[查看完整安装指南](prompts/install.md#中文)
 
 想换个样子时，就说「切换到像素版披萨」。
