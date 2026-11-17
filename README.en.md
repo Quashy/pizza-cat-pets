@@ -28,8 +28,6 @@ One Pizza has soft, realistic fur. The other is made of pixels, wearing the same
 | Soft fur, cherry dress | Pixel art, same cherry dress |
 | <img src="previews/pizza-original.gif" alt="Original Pizza animation preview" width="192"> | <img src="previews/pizza-pixel.gif" alt="Pixel Pizza animation preview" width="192"> |
 
-[View the native pixel portrait](previews/pizza-pixel-native.png)
-
 ## From pet photos to a tiny desktop supervisor
 
 Pizza started with photos. We picked out the details that make her recognizable: her face, long golden fur, and cherry dress. Then we created realistic and pixel versions, checked that both still looked like her, and brought them to life with waves and jumps. Even in motion, she's still the same familiar cat.

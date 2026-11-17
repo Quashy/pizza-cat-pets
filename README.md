@@ -28,8 +28,6 @@
 | 写实毛绒质感，樱桃裙 | 像素模样，同一条樱桃裙 |
 | <img src="previews/pizza-original.gif" alt="原版披萨动作预览" width="192"> | <img src="previews/pizza-pixel.gif" alt="像素版披萨动作预览" width="192"> |
 
-[查看像素版原生主图](previews/pizza-pixel-native.png)
-
 ## 从宠物照片，到会动的桌面小监工
 
 披萨是从照片里做出来的。先挑出一眼就能认出她的特征：脸型、金色长毛，还有那条樱桃裙。然后分别做出写实和像素两版，确认静态形象像她，再让她招手、跳跃。这样等到两版都动起来，也还是你熟悉的那只猫。
